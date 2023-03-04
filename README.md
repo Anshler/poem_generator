@@ -17,7 +17,7 @@ recent = 0 # current index
 
 trong vòng lặp for:
 ```python
-for index, poem in dataset[recent:].iterrows():
+for index, poem in dataset[recent:33000].iterrows():
 # Quân làm [0:33000]
 # Triết làm [33000:]
 ```
