@@ -20,5 +20,5 @@ trong vòng lặp for:
 ```python
 for index, poem in dataset[recent:33000].iterrows():
 ```
-Quân làm [0:33000]
+Quân làm [0:33000], mỗi lần dừng thì phải cập nhật biến recent để lần sau chạy tiếp.
 
