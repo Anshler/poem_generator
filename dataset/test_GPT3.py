@@ -13,13 +13,13 @@ dataset['genre'] = dataset['genre'].apply(lambda x: cleaning(x))
 
 
 # Set your OpenAI API key
-openai.api_key = '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'
+openai.api_key = '<API-KEY>'
 
-recent = 49109 # current index. (hàng cuối cùng dataset.json phải trống, current index sẽ trên nó 1 hàng. Nếu hàng index đó ko đầy đủ (ngắt chương trình nên chưa kịp lưu hết), thì phải xóa)
+recent = 0 # current index. (hàng cuối cùng dataset.json phải trống, current index sẽ trên nó 1 hàng. Nếu hàng index đó ko đầy đủ (ngắt chương trình nên chưa kịp lưu hết), thì phải xóa)
 outfile = open("dataset.json", "a", encoding='utf-8')
 while True:
     try:
-        for index, poem in dataset[recent:].iterrows():
+        for index, poem in dataset[recent:33000].iterrows():
             print(index)
             recent = index
             new_poem = poem['content'].split('\n')
