@@ -6,4 +6,9 @@ download **pytorch_model.bin** from [here](https://www.mediafire.com/file/hlow33
 
 ## Dataset building <- DO THIS ONE
 
+```python
+# Set your OpenAI API key
+openai.api_key = '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'
+```
+
 run [test_GPT3.py](https://github.com/Anshler/poem_generator/blob/main/dataset/test_GPT3.py).
