@@ -6,9 +6,18 @@ download **pytorch_model.bin** from [here](https://www.mediafire.com/file/hlow33
 
 ## Dataset building <- DO THIS ONE
 
+in [test_GPT3.py](https://github.com/Anshler/poem_generator/blob/main/dataset/test_GPT3.py)
+
 ```python
 # Set your OpenAI API key
-openai.api_key = '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'
+openai.api_key = '<API-KEY>'
+
+recent = 0 # current index
 ```
 
-run [test_GPT3.py](https://github.com/Anshler/poem_generator/blob/main/dataset/test_GPT3.py).
+trong vòng lặp for:
+```python
+for index, poem in dataset[recent:].iterrows():
+# Quân làm [0:33000]
+# Triết làm [33000:]
+```
