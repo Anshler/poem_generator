@@ -26,7 +26,7 @@ poems = DatasetDict({
     })
 
 
-tokenizer = transformers.BertTokenizer.from_pretrained("../modeling/Tokenizer_bert")
+tokenizer = transformers.BertTokenizer.from_pretrained("trituenhantaoio/bert-base-vietnamese-uncased")
 def preprocess_function(examples):
     return tokenizer(examples["content"], max_length=64, padding=True, truncation=True)
 tokenized_poem = poems.map(preprocess_function, batched=True)
@@ -39,7 +39,7 @@ def compute_metrics(eval_pred):
     predictions = np.argmax(predictions, axis=1)
     return accuracy.compute(predictions=predictions, references=labels)
 
-model = transformers.BertForSequenceClassification.from_pretrained("../modeling/Model_bert", num_labels=5, ignore_mismatched_sizes=True, id2label=id2label)
+model = transformers.BertForSequenceClassification.from_pretrained("trituenhantaoio/bert-base-vietnamese-uncased", num_labels=5, ignore_mismatched_sizes=True, id2label=id2label)
 model = model.to('cuda:0')
 
 training_args = transformers.TrainingArguments(
