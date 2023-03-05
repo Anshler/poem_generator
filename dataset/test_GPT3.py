@@ -48,7 +48,7 @@ while True:
             print(new_poem)
             prompt = {"role": "user", "content": """
                         
-            Tóm tắt bài thơ sau thành một prompt dưới 20 từ theo công thức "Prompt: Viết bài thơ %s về ...". Có thể trích dẫn 1-3 cụm từ trong bài thơ theo dạng "Có chứa từ khóa "xyz"".
+            Tóm tắt bài thơ sau thành một prompt dưới 20 từ theo công thức "Prompt: Viết bài thơ %s về ..." (sáng tạo trong cách viết không nhất thiết phải theo công thức). Có thể trích dẫn 1-3 cụm từ trong bài thơ theo dạng "Có chứa từ khóa "xyz"".
             
             %s
             
