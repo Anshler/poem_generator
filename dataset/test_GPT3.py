@@ -24,7 +24,7 @@ def process_outfile():
             outfile = open("dataset.json", 'a', encoding='utf-8')
             return recent, outfile
 
-        recent = len(readfile)-1+33000
+        recent = len(readfile)-1
         print(recent)
         writefile = open("dataset.json", 'w', encoding='utf-8')
         for a in readfile[:-1]:
