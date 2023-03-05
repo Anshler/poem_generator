@@ -1,4 +1,4 @@
-# Vietnamese poem generation using GPT-3.5 for data creation and finetuning with LORA on GPT-J
+# Vietnamese poem generation using GPT-3.5 for data creation and LoRa finetuning on GPT-J
 
 ## Raw data filtering
 
