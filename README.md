@@ -12,7 +12,7 @@ trong [test_GPT3.py](https://github.com/Anshler/poem_generator/blob/main/dataset
 # Set your OpenAI API key
 openai.api_key = '<API-KEY>'
 ```
-Hết tiền thì tạo tài khoản openai mới.
+Nếu hêt tiền thì tạo tài khoản openai mới.
 
 rồi cứ chạy, lâu quá thì ngừng lần sau chạy tiếp, nó tự động tiếp tục chỗ bỏ dỡ. (cứ mỗi 10-20 sample nó mới lưu vào file, ko hiểu tại sao, nên khi ngắt chương trình số sample lưu lại sẽ ít hơn 10-20 so với hiển thị trong cửa sổ log)
 
