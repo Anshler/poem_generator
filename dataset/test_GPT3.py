@@ -15,8 +15,29 @@ dataset['genre'] = dataset['genre'].apply(lambda x: cleaning(x))
 # Set your OpenAI API key
 openai.api_key = '<API-KEY>'
 
-recent = 0 # current index. (hàng cuối cùng dataset.json phải trống, current index sẽ trên nó 1 hàng. Nếu hàng index đó ko đầy đủ (ngắt chương trình nên chưa kịp lưu hết), thì phải xóa)
-outfile = open("dataset.json", "a", encoding='utf-8')
+def process_outfile():
+    recent = 0
+    
+    try:
+        readfile = open("dataset.json",'r', encoding='utf-8').readlines()
+        if readfile == []:
+            outfile = open("dataset.json", 'a', encoding='utf-8')
+            return recent, outfile
+
+        recent = len(readfile)-1+33000
+        print(recent)
+        writefile = open("dataset.json", 'w', encoding='utf-8')
+        for a in readfile[:-1]:
+            writefile.write(a)
+        outfile = open("dataset.json", 'a', encoding='utf-8') 
+        return recent, outfile
+
+    except:
+        outfile = open("dataset.json", 'a', encoding='utf-8')
+        return recent, outfile
+
+recent, outfile = process_outfile()
+
 while True:
     try:
         for index, poem in dataset[recent:33000].iterrows():
