@@ -5,7 +5,7 @@
 Download **pytorch_model.bin** from [here](https://www.mediafire.com/file/hlow33i2y0ajac0/pytorch_model.bin/file) and put it in the [poem_classifier](https://github.com/Anshler/poem_generator/tree/main/modeling/poem_classifier) folder. Or retrain it yourself by running [poem_classifier_training.py](https://github.com/Anshler/poem_generator/blob/main/utils/poem_classifier_training.py)
 ## Data building <- DO THIS ONE
 
-Trong [test_GPT3.py](https://github.com/Anshler/poem_generator/blob/main/dataset/test_GPT3.py)
+Trong [data_builder.py](https://github.com/Anshler/poem_generator/blob/main/dataset/data_builder.py)
 
 ```python
 # Set your OpenAI API key
