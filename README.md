@@ -13,5 +13,7 @@ openai.api_key = '<API-KEY>'
 ```
 Nếu hêt tiền thì tạo tài khoản openai mới.
 
-Rồi cứ chạy, lâu quá thì ngừng lần sau chạy tiếp, nó tự động tiếp tục chỗ bỏ dỡ. (cứ mỗi 10-20 sample nó mới lưu vào file, ko hiểu tại sao, nên khi ngắt chương trình số sample lưu lại sẽ ít hơn 10-20 so với hiển thị trong cửa sổ log)
+Rồi cứ chạy, sẽ tốn 3-4 ngày. Lâu quá thì ngừng lần sau chạy tiếp, nó tự động tiếp tục chỗ bỏ dỡ. (cứ mỗi 10-20 sample nó mới lưu vào file, ko hiểu tại sao, nên khi ngắt chương trình số sample lưu lại sẽ ít hơn 10-20 so với hiển thị trong cửa sổ log)
+
+Mình xài gpt-3.5-turbo. Trên lý thuyết nỏ rẻ gấp 10 lần gpt-3, nhưng em xài tới h tiền trial chưa giảm, nên chắc unlimited :v
 
