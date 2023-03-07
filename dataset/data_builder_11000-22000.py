@@ -16,9 +16,9 @@ def cleaning(text):
 dataset['genre'] = dataset['genre'].apply(lambda x: cleaning(x))
 
 # Set your OpenAI API key
-openai.api_key = '<OPENAI-KEY>'
+openai.api_key = '<API-KEY>'
 start = 11000
-end = 33000
+end = 22000
 
 def process_outfile():
     recent = start
