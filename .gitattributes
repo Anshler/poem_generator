@@ -1,0 +1,2 @@
+resource/dataset/poems_dataset.csv filter=lfs diff=lfs merge=lfs -text
+modeling/poem_classifier/pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
