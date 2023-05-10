@@ -16,13 +16,17 @@ _This project was inspired by_ ```fsoft-ailab```_'s_ [SP-GPT2 Poem-Generator](ht
 ## Dataset
 We used the same dataset as ```fsoft-ailab```. Download [here](https://github.com/fsoft-ailab/Poem-Generator/raw/master/dataset/poems_dataset.zip)
 
+## Pre-evaluation
+
+We trained a poem classifier based on bert with the accuracy of ```99.7%``` to classify the correct genre before scoring. This would be helpful during blind test (where genre is not specified).
+
 ## Evaluation
 
 We use a custom function to score the quality of a poem, based soldly on its conformation to the rigid rule of various types of vietnamese poem. Using 3 criterias: Length, Tone and Rhyme as follow:
 
 ```score = L/10 + 3T/10 + 6R/10```
 
-Currently, the ```Luc Bat``` genre score highest due to sheer sample size. So when we refer to the score, we mean the ```Luc Bat``` score. 
+Currently, the ```Luc Bat``` genre score highest due to sheer sample size. So when we refer to the score, we mean the ```Luc Bat``` score. It also has the tendency to genrerate ```Luc Bat``` when the genre is not specify, so it also scores very high during blind test.
 
 ## Inference
 
