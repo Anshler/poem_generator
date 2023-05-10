@@ -23,7 +23,7 @@ We trained a custom [poem classifier](https://github.com/Anshler/poem_generator/
 ```python
 from utils.poem_classifier import poem_classifier
 
-poem = '<insert poem here>'
+poem = '''<insert poem here>'''
 
 classifier = poem_classifier()
 print(classifier.predict(poem))
