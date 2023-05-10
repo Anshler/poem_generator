@@ -13,9 +13,12 @@ education, and entertainment.
 
 _This project was inspired by ```fsoft-ailab```'s_ [SP-GPT2 Poem-Generator](https://github.com/fsoft-ailab/Poem-Generator)
 
+## Dataset
+We used the same dataset as ```fsoft-ailab```. Download [here](https://github.com/fsoft-ailab/Poem-Generator/raw/master/dataset/poems_dataset.zip)
+
 ## Evaluation
 
-We use a custom function to score the quality of a poem, based soldly on its conformation to the rigid rule of various types of vietnamese poem.
+We use a custom function to score the quality of a poem, based soldly on its conformation to the rigid rule of various types of vietnamese poem. Using 3 criterias: Length,
 
 Currently, the ```Luc Bat``` genre score highest due to sheer sample size. So when we refer to the score, we mean the ```Luc Bat``` score. 
 
