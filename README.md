@@ -20,6 +20,15 @@ We used the same dataset as ```fsoft-ailab```. Download [here](https://github.co
 
 We trained a custom [poem classifier](https://github.com/Anshler/poem_generator/blob/master/utils/poem_classifier.py) based on bert with the accuracy of ```99.7%``` to classify the correct genre before scoring. This would be helpful during blind test (where genre is not specified).
 
+```python
+from utils.poem_classifier import poem_classifier
+
+poem = '<insert poem here>'
+
+classifier = poem_classifier()
+print(classifier.predict(poem))
+```
+
 ## Evaluation
 
 We use a custom function to score the quality of a poem, based soldly on its conformation to the rigid rule of various types of vietnamese poem. Using 3 criterias: Length, Tone and Rhyme as follow:
