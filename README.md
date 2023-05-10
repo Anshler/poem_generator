@@ -18,7 +18,7 @@ We used the same dataset as ```fsoft-ailab```. Download [here](https://github.co
 
 ## Pre-evaluation
 
-We trained a poem classifier based on bert with the accuracy of ```99.7%``` to classify the correct genre before scoring. This would be helpful during blind test (where genre is not specified).
+We trained a custom [poem classifier](https://github.com/Anshler/poem_generator/blob/master/utils/poem_classifier.py) based on bert with the accuracy of ```99.7%``` to classify the correct genre before scoring. This would be helpful during blind test (where genre is not specified).
 
 ## Evaluation
 
