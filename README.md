@@ -11,7 +11,7 @@ Our team hopes that the results of this research will contribute to the ongoing 
 field of AI-generated poetry, especially in Vietnamese, and have potential applications in creative writing,
 education, and entertainment.
 
-_This project was inspired by ```fsoft-ailab```'s_ [SP-GPT2 Poem-Generator](https://github.com/fsoft-ailab/Poem-Generator)
+_This project was inspired by_ ```fsoft-ailab```_'s_ [SP-GPT2 Poem-Generator](https://github.com/fsoft-ailab/Poem-Generator)
 
 ## Dataset
 We used the same dataset as ```fsoft-ailab```. Download [here](https://github.com/fsoft-ailab/Poem-Generator/raw/master/dataset/poems_dataset.zip)
