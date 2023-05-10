@@ -11,7 +11,7 @@ Our team hopes that the results of this research will contribute to the ongoing 
 field of AI-generated poetry, especially in Vietnamese, and have potential applications in creative writing,
 education, and entertainment.
 
-_read our report_ [here](https://github.com/Anshler/poem_generator/blob/master/VNese%20poem%20generation%20%26%20poem%20translation.pdf)
+_Read our report_ [here](https://github.com/Anshler/poem_generator/blob/master/VNese%20poem%20generation%20%26%20poem%20translation.pdf)
 
 _This project was inspired by_ ```fsoft-ailab```_'s_ [SP-GPT2 Poem-Generator](https://github.com/fsoft-ailab/Poem-Generator)
 
