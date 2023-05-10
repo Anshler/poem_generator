@@ -35,7 +35,7 @@ We use a custom function to score the quality of a poem, based soldly on its con
 
 ```score = L/10 + 3T/10 + 6R/10```
 
-Currently, the ```Luc Bat``` genre score highest due to sheer sample size. So when we refer to the score, we mean the ```Luc Bat``` score. It also has the tendency to genrerate ```Luc Bat``` when the genre is not specify, so it also scores very high during blind test.
+Currently, the ```Luc Bat``` genre score highest due to sheer sample size. So when we refer to the score, we mean the ```Luc Bat``` score. It also has the tendency to genrerate ```Luc Bat``` when the genre is not specified, so it also scores very high during blind test.
 
 ## Inference
 
