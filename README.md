@@ -26,4 +26,6 @@ Currently, the ```Luc Bat``` genre score highest due to sheer sample size. So wh
 
 The opensource version use a Lora for ```Bloom-7b1 in 8bit``` and can run on colab. It achieve a score of ```67/100```
 
+You can try it here [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Mw_MsCix-NeUGRu77E-BkkvW6tut-AI-?usp=sharing)
+
 The openAI version was finetuned on the ```Babbage``` model. It achieves the score of ```80/100```
