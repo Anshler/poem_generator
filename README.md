@@ -19,9 +19,9 @@ We used the same dataset as ```fsoft-ailab```. Download [here](https://github.co
 ## Evaluation
 
 We use a custom function to score the quality of a poem, based soldly on its conformation to the rigid rule of various types of vietnamese poem. Using 3 criterias: Length, Tone and Rhyme as follow:
-`
-score = \frac{L}{10} + \frac{3T}{10} + \frac{R+6}{10}
-`
+$$
+score = {L \over 10} + \frac{3T}{10} + \frac{R+6}{10}
+$$
 
 Currently, the ```Luc Bat``` genre score highest due to sheer sample size. So when we refer to the score, we mean the ```Luc Bat``` score. 
 
