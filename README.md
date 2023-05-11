@@ -5,7 +5,7 @@ the model to understand the nuances of language, sentiment, and style. Our propo
 Language Model and deep learning techniques to generate poems from natural language prompt that is
 both intuitive and offers greater control over the generated content. The model will be trained on a large
 corpus of poems written in a Vietnamese language, and will be evaluated using custom metrics tailtored
-specifically for Vietnamese poe
+specifically for Vietnamese poem
 
 Our team hopes that the results of this research will contribute to the ongoing efforts to advance the
 field of AI-generated poetry, especially in Vietnamese, and have potential applications in creative writing,
