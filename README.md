@@ -1,4 +1,4 @@
-# Vietnamese Poem Generation & The Prospect Of Cross-Language Poem-To-Poem Translation
+# Vietnamese Poem Generation & The Prospect Of Cross-Language Poem-To-Poem Translation 📜🖋️
 
 Poetry generation has been a challenging task in the field of Natural Language Processing, as it requires
 the model to understand the nuances of language, sentiment, and style. Our proposed system will use
