@@ -22,9 +22,81 @@ python poem_classifier_training.py
 
 ## Evaluation
 
-We use a custom function to score the quality of a poem, based soldly on its conformation to the rigid rule of various types of vietnamese poem. Using 3 criterias: Length, Tone and Rhyme as follow:
+We use a custom function to score the quality of a poem, based soldly on its conformation to the rigid rule of various types of vietnamese poem. Using 3 criterias: Length, Tone and Rhyme as follow: ```score = L/10 + 3T/10 + 6R/10```
 
-```score = L/10 + 3T/10 + 6R/10```
+*Table 1: Result comparison of models*
+<table>
+  <tr>
+    <th>Models</th>
+    <th>Luc Bat</th>
+    <th>Blind</th>
+    <th>7 Chu</th>
+    <th>8 Chu</th>
+    <th>5 Chu</th>
+    <th>4 Chu</th>
+  </tr>
+  <tr>
+    <td colspan="7" align="center"><strong>text-to-poem</strong></td>
+  </tr>
+  <tr>
+    <td>ChatGPT (zero-shot)</td>
+    <td>0.440</td>
+    <td>0.345</td>
+    <td>0.292</td>
+    <td>0.197</td>
+    <td>0.284</td>
+    <td>0.238</td>
+  </tr>
+  <tr>
+    <td>Davinci (1000 samples)</td>
+    <td>0.580</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>BLOOM (20k samples)</td>
+    <td>0.678</td>
+    <td>0.596</td>
+    <td>0.367</td>
+    <td>0.279</td>
+    <td>0.480</td>
+    <td>0.440</td>
+  </tr>
+  <tr>
+    <td>Babbage (20k samples)</td>
+    <td>0.718</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Babbage</td>
+    <td>0.805</td>
+    <td>0.795</td>
+    <td>0.661</td>
+    <td>0.500</td>
+    <td>0.382</td>
+    <td>0.392</td>
+  </tr>
+  <tr>
+    <td colspan="7" align="center"><strong>poem-to-poem</strong></td>
+  </tr>
+  <tr>
+    <td>Babbage</td>
+    <td>0.781</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+</table>
+
 
 Currently, the ```Luc Bat``` genre score highest due to sheer sample size. It also has the tendency to genrerate ```Luc Bat``` when the genre is not specified, so it also scores very high during blind test.
 
