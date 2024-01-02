@@ -12,15 +12,23 @@ For more detail, refer to the _Acknowledgments_ section
 
 ## Pre-evaluation
 
-We trained a custom [poem classifier](utils/poem_classifier.py) based on bert with the accuracy of ```99.7%``` to classify the correct genre before scoring. This would be helpful during blind test (where genre is not specified).
+We trained a custom [poem classifier](utils/poem_classifier.py) based on bert with the accuracy of ```99.7%``` to classify the correct genre before scoring. This would be helpful during blind test (where genre is not specified). Here is link to the [vietnamese-poem-classifier](https://github.com/Anshler/vietnamese-poem-classifier) repo.
+
+Install library:
+
+```
+pip install vietnamese-poem-classifier
+```
+Run:
 
 ```python
-from utils.poem_classifier import poem_classifier
+from vietnamese_poem_classifier.poem_classifier import PoemClassifier
 
-poem = '''<insert poem here>'''
+classifier = PoemClassifier()
 
-classifier = poem_classifier()
-print(classifier.predict(poem))
+poem = '''<insert poem>'''
+
+classifier.predict(poem)
 ```
 
 ## Evaluation
@@ -29,7 +37,7 @@ We use a custom function to score the quality of a poem, based soldly on its con
 
 ```score = L/10 + 3T/10 + 6R/10```
 
-Currently, the ```Luc Bat``` genre score highest due to sheer sample size. So when we refer to the score, we mean the ```Luc Bat``` score. It also has the tendency to genrerate ```Luc Bat``` when the genre is not specified, so it also scores very high during blind test.
+Currently, the ```Luc Bat``` genre score highest due to sheer sample size. It also has the tendency to genrerate ```Luc Bat``` when the genre is not specified, so it also scores very high during blind test.
 
 ## Inference
 
