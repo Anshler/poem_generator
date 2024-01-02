@@ -14,7 +14,7 @@ For more detail, refer to the _Acknowledgments_ section
 
 We trained a custom genre classifier based on BERT with the accuracy of ```99.7%``` to classify the correct genre before scoring. This would be helpful during blind test (where genre is not specified). For more detail, refer to our [vietnamese-poem-classifier](https://github.com/Anshler/vietnamese-poem-classifier) repo.
 
-To train the classifier, run:
+The training code is in this repo. To train the classifier, run:
 
 ```
 python poem_classifier_training.py
