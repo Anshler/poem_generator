@@ -102,9 +102,7 @@ Currently, the ```Luc Bat``` genre score highest due to sheer sample size. It al
 
 ## Inference
 
-The opensource version use a Lora for ```Bloom-7b1``` in 8bit and can run on colab. It achieve a score of ```0.67```
-
-You can try it here [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Mw_MsCix-NeUGRu77E-BkkvW6tut-AI-?usp=sharing) (probably run out of memory and crash. It used to run fine, you might need colab pro now)
+The opensource version use a Lora for ```Bloom-7b1``` in 8bit and can run on colab. You can try it here [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Mw_MsCix-NeUGRu77E-BkkvW6tut-AI-?usp=sharing) (probably run out of memory and crash. It used to run fine, new library versions conflict a lot)
 
 ## Acknowledgments
 
