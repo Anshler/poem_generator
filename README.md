@@ -6,7 +6,9 @@ Our most efficacious model, the GPT-3 Babbage variant, achieves a custom evaluat
 _Read our report_ [here](VNese-poem-generation-&-poem-translation.pdf)
 
 ## Dataset
-We used the same dataset as ```fsoft-ailab```. Download [here](https://github.com/fsoft-ailab/Poem-Generator/raw/master/dataset/poems_dataset.zip)
+A collection of 171188 Vietnamese poems with different genres: luc-bat, 5-chu, 7-chu, 8-chu, 4-chu. Download [here](https://github.com/fsoft-ailab/Poem-Generator/raw/master/dataset/poems_dataset.zip)
+
+For more detail, refer to the _Acknowledgments_ section
 
 ## Pre-evaluation
 
@@ -31,12 +33,12 @@ Currently, the ```Luc Bat``` genre score highest due to sheer sample size. So wh
 
 ## Inference
 
-The opensource version use a Lora for ```Bloom-7b1 in 8bit``` and can run on colab. It achieve a score of ```67/100```
+The opensource version use a Lora for ```Bloom-7b1 in 8bit``` and can run on colab. It achieve a score of ```0.67```
 
 You can try it here [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Mw_MsCix-NeUGRu77E-BkkvW6tut-AI-?usp=sharing) (probably run out of memory and crash. It used to run fine, you might need colab pro now)
 
-The openAI version was finetuned on the ```Babbage``` model. It achieves the score of ```80/100```
-
 ## Acknowledgments
 
-_This project was inspired by_ ```fsoft-ailab```_'s_ [SP-GPT2 Poem-Generator](https://github.com/fsoft-ailab/Poem-Generator)
+_This project was inspired by the evaluation method from ```fsoft-ailab```'s_ [SP-GPT2 Poem-Generator](https://github.com/fsoft-ailab/Poem-Generator)
+
+_Dataset also taken from their repo_
