@@ -12,23 +12,12 @@ For more detail, refer to the _Acknowledgments_ section
 
 ## Pre-evaluation
 
-We trained a custom [poem classifier](utils/poem_classifier.py) based on bert with the accuracy of ```99.7%``` to classify the correct genre before scoring. This would be helpful during blind test (where genre is not specified). Here is link to the [vietnamese-poem-classifier](https://github.com/Anshler/vietnamese-poem-classifier) repo.
+We trained a custom genre classifier based on BERT with the accuracy of ```99.7%``` to classify the correct genre before scoring. This would be helpful during blind test (where genre is not specified). For more detail, refer to our [vietnamese-poem-classifier](https://github.com/Anshler/vietnamese-poem-classifier) repo.
 
-Install library:
+To train the classifier, run:
 
 ```
-pip install vietnamese-poem-classifier
-```
-Run:
-
-```python
-from vietnamese_poem_classifier.poem_classifier import PoemClassifier
-
-classifier = PoemClassifier()
-
-poem = '''<insert poem>'''
-
-classifier.predict(poem)
+python poem_classifier_training.py
 ```
 
 ## Evaluation
