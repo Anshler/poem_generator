@@ -5,8 +5,6 @@ Poetry generation has been a challenging task in the field of Natural Language P
 
 Our most efficacious model, the GPT-3 Babbage variant, achieves a custom evaluation score of ```0.8```, specifically tailored to the "luc bat" genre of Vietnamese poetry. Furthermore, we also explore the idea of paraphrasing poems into normal text prompts and yield a relatively high score of ```0.718``` in the "luc bat" genre. This experiment presents the potential for cross-Language poem-to-poem translation with translated poems as the inputs while concurrently maintaining complete control over the generated content.
 
-_Read our report_ [here](VNese-poem-generation-&-poem-translation.pdf)
-
 ## Dataset
 A collection of 171188 Vietnamese poems with different genres: luc-bat, 5-chu, 7-chu, 8-chu, 4-chu. Download [here](https://github.com/fsoft-ailab/Poem-Generator/raw/master/dataset/poems_dataset.zip)
 
