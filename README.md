@@ -1,5 +1,5 @@
 # Vietnamese Poem Generation & The Prospect Of Cross-Language Poem-To-Poem Translation 📜🖋️
-[\[paper\]]() [\[model\]](./modeling/poem_generator_(bloom)) [\[demo\]](https://colab.research.google.com/drive/1Mw_MsCix-NeUGRu77E-BkkvW6tut-AI-?usp=sharing)
+[\[paper\]](https://arxiv.org/abs/2401.01078) [\[model\]](./modeling/poem_generator_(bloom)) [\[demo\]](https://colab.research.google.com/drive/1Mw_MsCix-NeUGRu77E-BkkvW6tut-AI-?usp=sharing)
 
 Poetry generation has been a challenging task in the field of Natural Language Processing, as it requires the model to understand the nuances of language, sentiment, and style. In this paper, we propose using Large Language Models to generate Vietnamese poems from natural language prompts, thereby facilitating an intuitive process with enhanced content control. 
 
@@ -108,7 +108,16 @@ The opensource version use a Lora for ```Bloom-7b1``` in 8bit and can run on col
 
 ## Citation
 
-_Citation temporarily unavailable_ ⏱️
+```
+@misc{minh2024vietnamese,
+      title={Vietnamese Poem Generation & The Prospect Of Cross-Language Poem-To-Poem Translation}, 
+      author={Triet Huynh Minh and Quan Le Bao},
+      year={2024},
+      eprint={2401.01078},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
 
 ## Acknowledgments
 
