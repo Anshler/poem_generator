@@ -107,9 +107,9 @@ The opensource version use a Lora for ```Bloom-7b1``` in 8bit and can run on col
 ## Citation
 
 ```
-@misc{minh2024vietnamese,
+@misc{huynh2024vietnamese,
       title={Vietnamese Poem Generation & The Prospect Of Cross-Language Poem-To-Poem Translation}, 
-      author={Triet Huynh Minh and Quan Le Bao},
+      author={Triet Minh Huynh and Quan Le Bao},
       year={2024},
       eprint={2401.01078},
       archivePrefix={arXiv},
