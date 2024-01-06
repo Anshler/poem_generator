@@ -1,4 +1,4 @@
 - `dataset.csv` was created using gpt-3.5 to turn the filtered data into dictionaries of prompts and completions.
 - `dataset_train_gpt_3.jsonl` was from applying preprocessing on `dataset.csv`, with seperators at the end. Used specifically for text-to-poem finetuning causal language models like gpt-3
-- `dataset_test` is for testing
 - `dataset_train_translator.jsonl` is similar to `dataset.csv`, but only has Luc Bat genre, prompts are paraphrasings of the poems' contents. Used for finetuning poem-to-poem
+- `dataset_test.json` and `dataset_test_translator.csv` are for testing
