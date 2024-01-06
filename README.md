@@ -10,7 +10,7 @@ The orignial dataset is a collection of 171188 Vietnamese poems with different g
 
 For more detail, refer to the _Acknowledgments_ section
 
-We also created our own datasets for prompt-based generation [here](./resource/dataset/data_explanation.md).
+We also created our own datasets for prompt-based generation in the [resource/dataset](./resource/dataset/data_explanation.md) folder.
 
 ## Pre-evaluation
 
