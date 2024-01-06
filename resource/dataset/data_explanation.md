@@ -1,6 +1,4 @@
-- `poems_dataset` is the original dataset
-- `poems_dataset_0.9` is filtered for score > 0.9
-- `dataset` is created using gpt-3.5 to turn the filtered data into dictionaries of prompts and completions.
-- `dataset_train_gpt_3` was from applying preprocessing on `dataset.csv`, with seperators at the end. Used specifically for finetuning causal language models like gpt-3
+- `dataset.csv` is created using gpt-3.5 to turn the filtered data into dictionaries of prompts and completions.
+- `dataset_train_gpt_3.jsonl` was from applying preprocessing on `dataset.csv`, with seperators at the end. Used specifically for text-to-poem finetuning causal language models like gpt-3
 - `dataset_test` is for testing
-- `dataset_translator` is similar to `dataset`, but prompts is a paragraph of the completion's content. Used for training long-text to poem
+- `dataset_train_translator.jsonl` is similar to `dataset.csv`, but only has Luc Bat genre, prompts are paraphrasings of the poems' contents. Used for finetuning poem-to-poem
